@@ -1,0 +1,54 @@
+/* styles.css */
+
+/* RestaurantItem styles */
+.restaurant-item {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.restaurant-item h6 {
+  margin-bottom: 10px;
+}
+
+/* RestaurantList styles */
+.restaurant-list {
+  max-width: 600px;
+  margin: auto;
+}
+
+/* RestaurantForm styles */
+.restaurant-form {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.restaurant-form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.restaurant-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+.restaurant-form button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.restaurant-form button.cancel {
+  background-color: #f44336;
+  margin-right: 8px;
+}
+

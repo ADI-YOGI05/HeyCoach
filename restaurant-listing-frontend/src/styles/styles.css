@@ -1,0 +1,65 @@
+/* src/styles/styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .restaurant-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .edit-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-form input {
+    margin-bottom: 10px;
+    padding: 8px;
+  }
+  
+  .edit-form button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .edit-form button.cancel {
+    background-color: #ccc;
+  }
+  
+  .add-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-form input {
+    margin-bottom: 10px;
+    padding: 8px;
+  }
+  
+  .add-form button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
